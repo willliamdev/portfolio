@@ -1,0 +1,60 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a{
+    color: white;
+    margin: 0 10px;
+    text-orientation: none;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 80vh;
+}
+
+/*Coluna esquerda*/
+.sidebar{
+    background-color: #f4a261;
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+}
+
+/*Conteúdo principal*/
+.content{
+    background-color: #e9c46a;
+    flex: 3;
+    padding: 20px;
+}
+
+/*Rodapé*/
+footer{
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Responsividade*/
+@media (max-width:768px) {
+    .container{
+        flex-direction: column;
+    }
+}
