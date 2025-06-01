@@ -1,0 +1,50 @@
+/* home */
+
+.home span {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--green);
+}
+
+.home h2 {
+    color: #fff;
+    font-size: 5rem;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+
+.home h4 {
+    color: #818181;
+    font-size: 2.5rem;
+    transition: 1500ms;
+    /* animation-delay: 2s; */
+}
+
+.home h4::before {
+    content: "//";
+}
+
+.home h4:hover {
+    color: var(--green);
+}
+
+@media (max-width:768px) {
+    .home{
+        padding: 30px;
+    }
+
+    .home span{
+        font-size: 1rem;
+    }
+    .home h2 {
+        font-size: 3rem;
+    }
+
+    .home h4 {
+        font-size: 1.5rem;
+    }
+    #presentation{
+        /* line-height: ; */
+        font-size: 0.9rem;
+    }
+}

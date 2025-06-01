@@ -5,34 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:opsz,wght@14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <h1>WillliamDev</h1>
+
+        <h3 id="logo">&lt;<span>Willliam.DEV</span>&#47;&gt;</h3>
         <nav>
-            <a href="pages/home.html" data-pagina="pages/home.html">INICIO</a>
-            <a href="pages/posts.html" data-pagina="pages/posts.html">BLOG</a>
-            <a href="pages/sobre.html" data-pagina="pages/sobre.html">SOBRE</a>
-            <a href="pages/contato.html" data-pagina="pages/contato.html">CONTATO</a>
+            <ol type="1">
+                <li><a href="pages/home.html" data-pagina="pages/home.html">Início</a></li>
+                <li><a href="pages/posts.html" data-pagina="pages/posts.html">Projetos</a></li>
+                <li><a href="pages/sobre.html" data-pagina="pages/sobre.html">Sobre</a></li>
+                <li><a href="pages/contato.html" data-pagina="pages/contato.html">Contato</a></li>
+            </ol>
         </nav>
     </header>
     <section class="container">
-        <aside class="sidebar">
-            <h2>Social Links</h2>
-            <ul>
-                <li><a href="https://github.com/willliamdev">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/willliamdev">LinkedIn</a></li>
-                <li><a href="https://www.instagram.com/willliamdev">Instagram</a></li>
-            </ul>
-        </aside>
+
         <div id="conteudo-principal" class="content">
 
         </div>
+        <aside class="social-links">
+            <ul>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-github">
+                        <title>GitHub</title>
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                    <a href="https://github.com/willliamdev" aria-label="GitHub" target="_blank" rel="noreferrer">
+
+                        GitHub
+                    </a>
+
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <title>LinkedIn</title>
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                        </path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    <a href="https://github.com/willliamdev" aria-label="LinkedIn" target="_blank" rel="noreferrer">
+
+                        LinkedIn
+                    </a>
+
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-instagram">
+                        <title>Instagram</title>
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                    <a href="https://www.instagram.com/willliamdev" aria-label="Instagram" target="_blank"
+                        rel="noreferrer">
+
+                        Instagram
+                    </a>
+                </li>
+            </ul>
+        </aside>
     </section>
     <footer>
-        <p> &copy 2025 - Todos os direitos reservados</p>
+        <p> &copy; 2025 - Todos os direitos reservados</p>
     </footer>
 
     <script src="script/script.js"></script>
