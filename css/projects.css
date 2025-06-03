@@ -1,0 +1,30 @@
+/* .project img {
+    max-width: 40%;
+    aspect-ratio: 1/1;
+    height: auto;
+    border-radius: 8px;
+
+} */
+
+.project {
+    padding: 30px;
+    margin-bottom: 40px;
+    background-color: #242424;
+    border-radius: 8px;
+}
+
+.project p {
+    margin-top: 20px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tech-tag {
+    display: block;
+    width: 100%;
+    background-color: #121212;
+}
