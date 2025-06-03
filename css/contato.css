@@ -1,17 +1,26 @@
+.contact {
+  max-width: 600px;
 
+}
+
+.contact p {
+  margin-bottom: 20px;
+}
 form {
-  background-color: #fff;
-  padding: 20px;
+  background-color: #242424;
+
+  padding: 30px;
   border-radius: 8px;
-  max-width: 500px;
   margin: auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
 }
 
 label {
   display: block;
   margin-top: 10px;
   font-weight: bold;
+  color: #fff;
+  font-size: 1.2rem;
 }
 
 input,
@@ -24,6 +33,9 @@ textarea {
 }
 
 button {
+  width: 100%;
+  font-weight: 600;
+  height: 40px;
   margin-top: 15px;
   padding: 10px 15px;
   background-color: #28a745;
